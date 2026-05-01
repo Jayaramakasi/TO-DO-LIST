@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import "./App.css";
 import Inputcontainer from './assets/Inputcontainer';
-import Todocontainer from './todocontainer';
+import Todocontainer from './Todocontainer';
 
 function App() {
   const[inputVal,setInputval]=useState('')
